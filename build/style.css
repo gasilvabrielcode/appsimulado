@@ -8,12 +8,12 @@
 }
 
 body{
-    background: #0093e9;
+    background: #0076a5;
 }
 
 ::selection{
     color: #fff;
-    background: #0093e9;
+    background: #0076a5;
 }
 
 .start_btn,
@@ -40,7 +40,7 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #0093e9;
+    color: #0076a5;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -82,7 +82,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #0093e9;
+    color: #0076a5;
 }
 .info_box .buttons{
     height: 60px;
@@ -102,7 +102,7 @@ body{
     cursor: pointer;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #0093e9;
+    border: 1px solid #0076a5;
     transition: all 0.3s ease;
 }
 
@@ -172,7 +172,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #0093e9;
+    background: #0076a5;
 }
 
 section{
@@ -285,8 +285,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #0093e9;
-    border: 1px solid #0093e9;
+    background: #0076a5;
+    border: 1px solid #0076a5;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -321,7 +321,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #0093e9;
+    color: #0076a5;
     margin-bottom: 10px;
 }
 
@@ -357,13 +357,13 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #0093e9;
+    border: 1px solid #0076a5;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
     color: #fff;
-    background: #0093e9;
+    background: #0076a5;
 }
 
 .buttons button.restart:hover{
@@ -371,11 +371,11 @@ footer button.show{
 }
 
 .buttons button.quit{
-    color: #0093e9;
+    color: #0076a5;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #0093e9;;
+    background: #0076a5;;
 }
