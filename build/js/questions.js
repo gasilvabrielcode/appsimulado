@@ -55,4 +55,59 @@ let questions = [
       "medida administrativa de retenção"
     ]
   },
+  {
+    numb: 6,
+    question: "No homicídio culposo, cometido na direção de veículo automotor, a pena é aumentada de um terço à metade, se o agente estiver conduzindo:",
+    answer: "veículo de transporte de passageiros, no exercício de sua profissão ou atividade.",
+    options: [
+      "veículo de transporte de passageiros, no exercício de sua profissão ou atividade",
+      "veículo sem estar devidamente licenciado",
+      "veículo em mau estado de conservação.",
+      "veículo com excesso de carga"
+    ]
+  },
+  {
+    numb: 7,
+    question: "O condutor que vai fazer uso do telefone celular deve:",
+    answer: "parar o veículo no acostamento para fazer a ligação;",
+    options: [
+      "usá-lo com o veículo em movimento;",
+      "parar o veículo no acostamento para fazer a ligação;",
+      "transitar pela faixa da direita;",
+      "aproveitar o semáforo fechado para fazer a ligação;"
+    ]
+  },
+  {
+    numb: 8,
+    question: "O trabalho de tele-entrega normalmente é feito por motociclistas. O serviço exige agilidade e rapidez. Qual seria a atitude correta desse profissional?",
+    answer: "conduzir com cuidado, respeitando as normas de circulação, procurando realizar a entrega da melhor forma possível.",
+    options: [
+      "priorizar a velocidade das entregas em detrimento de sua segurança.",
+      "conduzir com cuidado, respeitando as normas de circulação, procurando realizar a entrega da melhor forma possível.",
+      "respeitar apenas algumas regras de trânsito para não atrapalhar o serviço de entrega.",
+      "fazer o maior número de entregas possíveis, batendo os recordes de velocidade."
+    ]
+  },
+  {
+    numb: 9,
+    question: "É correto afirmar no caso de fratura fechada:",
+    answer: "que o osso quebrado não aparece na superfície e a pele não foi perfurada",
+    options: [
+      "que o osso quebrado não aparece na superfície e a pele não foi perfurada",
+      "deverá ser socorrido sem imobilização",
+      "o osso quebrado aparece na superfície da pele",
+      "deve-se esperar por um socorro especializado"
+    ]
+  },
+  {
+    numb: 10,
+    question: "A retirada do catalisador original de um automóvel",
+    answer: "é proibida",
+    options: [
+      "diminui o consumo do combustível",
+      "melhora a qualidade dos gases do escapamento",
+      "é proibida",
+      "é possível desde que se instale a injeção eletrônica."
+    ]
+  },
 ];
