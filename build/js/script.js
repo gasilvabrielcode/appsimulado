@@ -45,7 +45,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 120;
+    timeValue = 0;
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -124,12 +124,12 @@ function optionSelected(answer){
         userScore += 1; //upgrading score value with 1
         answer.classList.add("correct"); //adding green color to correct selected option
         answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
-        console.log("Respuesta Correcta");
-        console.log("Tus respuestas correctas = " + userScore);
+        console.log("Resposta Correta");
+        console.log("Tuas respostas corretas = " + userScore);
     }else{
         answer.classList.add("incorrect"); //adding red color to correct selected option
         answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cross icon to correct selected option
-        console.log("Wrong Answer");
+        console.log("Resposta errada!");
 
         for(i=0; i < allOptions; i++){
             if(option_list.children[i].textContent == correcAns){ //if there is an option which is matched to an array answer 
@@ -195,9 +195,9 @@ function startTimer(time){
 }
 
 function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
+    counterLine = setInterval(timer, 61);
     function timer(){
-        time += 0.61; //upgrading time value with 1
+        time += 0.28; //upgrading time value with 1
         time_line.style.width = time + "px"; //increasing width of time_line with px by time value
         if(time > 549){ //if time value is greater than 549
             clearInterval(counterLine); //clear counterLine
