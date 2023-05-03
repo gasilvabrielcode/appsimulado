@@ -58,7 +58,7 @@ let questions = [
   {
     numb: 6,
     question: "No homicídio culposo, cometido na direção de veículo automotor, a pena é aumentada de um terço à metade, se o agente estiver conduzindo:",
-    answer: "veículo de transporte de passageiros, no exercício de sua profissão ou atividade.",
+    answer: "veículo de transporte de passageiros, no exercício de sua profissão ou atividade",
     options: [
       "veículo de transporte de passageiros, no exercício de sua profissão ou atividade",
       "veículo sem estar devidamente licenciado",
